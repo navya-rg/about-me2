@@ -171,6 +171,7 @@ input[type='submit']:hover, input[type='reset']:hover{
   width: 200px;
   height: 200px;
   margin: 0 auto;
+  box-shadow: 2px 2px 3px grey;
 }
 
 .imggal img:hover {
