@@ -1,0 +1,178 @@
+body{
+	margin: 0;
+}
+.amatic{
+	font-family: 'Amatic SC';
+}
+nav{
+	font-family: 'Amatic SC';
+	font-size: 1.5em;
+	background-color: rgba(0,0,0,0.6);
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	z-index: 9999;
+}
+nav:hover{
+	background-color: rgba(0,0,0,1);
+}
+nav ul{
+	list-style-type: none;
+	padding: 10px 0px;
+	margin: 0;
+}
+nav li{
+	display: inline;
+	padding: 10px 15px;
+}
+nav li:hover{
+	color: rgba(0,0,0,1);
+	background-color: rgba(220,220,220,1);
+}
+nav a:link{
+	color: rgba(255,255,255,0.8);
+	text-decoration: none;
+}
+nav a:active{
+	color: rgba(255,255,255,1);
+	text-decoration: none;
+}
+nav a:visited{
+	color: rgba(255,255,255,0.8);
+	text-decoration: none;
+}
+nav a:hover{
+	color: rgba(0,0,0,1);
+	text-decoration: none;
+}
+.container{
+	color: rgba(255,255,255,1);
+	position: relative;
+  	text-align: center;
+  	font-size: 5em;
+}
+.textOverlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+article{
+	margin:auto;
+	width: 70%;
+	font-family: 'Poiret One';
+	font-size: 1.5em;
+}
+article h3{
+	color: rgba(0,0,0,0.3);
+}
+footer{
+	padding: 30px;
+	text-align: center;
+	background-color: rgba(109,41,79,1);
+	color: rgba(255,255,255,1);
+	font-family: 'Amatic SC';
+	font-size: 2em;
+}
+table{
+	width: 100%;
+	margin: auto;
+	border-collapse: collapse;
+}
+thead td{
+	color:rgba(255,255,255,1);
+	font-family: "Amatic SC";
+	font-size:2em;
+}
+thead td{
+	background-color: rgba(0,0,0,1);
+}
+td{
+	border: 1px solid rgba(0,0,0,0.5);
+	color: rgba(0,0,0,0.7);
+	padding: 10px;
+	text-align: center;
+}
+th{
+	border: 1px solid rgba(0,0,0,0.5);
+	padding: 10px;
+	text-decoration: underline;
+	text-align: center;
+}
+.interests{
+	width: 100%;
+	margin: auto;
+}
+.int{
+	overflow: auto;
+	padding: 10px 0px;
+}
+.int p{
+	font-size: 0.9em;
+}
+.int h1{
+	font-family: "Amatic SC";
+	color: rgba(255,255,255,1);
+	background-color: rgba(0,0,0,1);
+	display: inline-block;
+	padding: 3px;
+}
+.int img{
+	display: inline-block;
+	height: 200px;
+	float: right;
+}
+ol{
+	list-style-type: "1";
+	margin-top: 0px;
+}
+section{
+	width: 70%;
+	margin: auto;
+	font-family: 'Poiret One';
+	font-size: 1.5em;
+}
+section h1{
+	font-family: "Amatic SC";
+	background-color: rgba(0,0,0,1);
+	color: rgba(255,255,255,1);
+	padding: 3px;
+	display: inline-block;
+}
+form{
+	margin: 20% 0%;
+	text-align: center;
+}
+textarea{
+	width: 100%;
+	font-family: 'Poiret One';
+	font-size: 1em;
+	padding: 5px;
+}
+.pink{
+	background-color: rgba(109,41,79,0.1);
+}
+input[type='submit'], input[type='reset']{
+	padding: 5px 0px;
+	width: 100px;
+	font-family: "Amatic SC";
+	font-size: 1.5em;
+	background-color: rgba(0,0,0,1);
+	color: rgba(255,255,255,1);
+	border: none;
+	box-shadow: 2px 2px 3px grey;
+}
+input[type='submit']:hover, input[type='reset']:hover{
+	color: rgba(0,0,0,1);
+	background-color: rgba(255,255,255,1);
+}
+.imggal img{
+  transition: transform .2s;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+}
+
+.imggal img:hover {
+  transform: scale(1.5);
+}
